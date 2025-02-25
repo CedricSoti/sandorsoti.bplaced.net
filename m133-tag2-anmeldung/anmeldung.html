@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Form</title> 
+    <link rel="stylesheet" href="view/css/anmeldung.css">
+  </head>
+
+  <body>
+  
+    <a href="#" class="button" id="toggle-login">Log in</a>
+	
+	<div id="login">
+	  <div id="triangle"></div>
+	  <h1>Anmeldung zum internen Bereich</h1>
+	  <form action="control/anmeldung.php" method="post">
+	    <input type="email" name="benutzer" placeholder="Email" />
+	    <input type="password" name="password" placeholder="Password" />
+	    <input type="submit" value="Senden" />
+	  </form>
+	</div>
+
+	<script src="control/js/anmeldung.js"></script>
+	         
+  </body>
+</html>
