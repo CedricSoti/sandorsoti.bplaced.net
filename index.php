@@ -9,13 +9,22 @@
  
 <div id="wrapper">
     
-   <div id="header"></div><!-- header -->
+
+   <div id="header">
+    <h1>Header</h1>
+   </div><!-- header -->
     
-   <div id="main"></div><!-- main -->
+   <div id="main">
+    <h2>Main</h2>
+   </div><!-- main -->
     
-   <div id="sidebar"></div><!-- sidebar --> 
+   <div id="sidebar">
+    <h4>sidebar</h4>
+   </div><!-- sidebar --> 
     
-   <div id="footer"></div><!-- footer -->
+   <div id="footer">
+    <h3>footer</h3>
+   </div><!-- footer -->
     
 </div><!-- wrapper -->
     
