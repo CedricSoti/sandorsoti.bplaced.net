@@ -22,10 +22,7 @@ header("Location: http://localhost:8080/workspace/templatehtml.php");
 
 }
 else {
-	$html_Output = "<html><head><title>Anmeldung</title></head>";
-	$html_Output .= "<body>";
-	$html_Output .= "Hallo, die Anmeldung war nicht erfolgreich.";
-	$html_Output .= "</body></html>";    	
+	header("http://localhost:8080/tryagain.php");
 }
 
 
