@@ -11,7 +11,7 @@ if (isset($_REQUEST['password'])) {
 }
 
     
-if (( strlen($benutzer) > 0 ) AND ( strlen($password) > 0 ))  {
+if (( strlen($benutzer) > 0 ) AND ( strlen($password) > 0 ) AND ($password == "1234"))  {
     // Pruefe Inhalt von Eingabe
     
     $_SESSION['benutzer'] = $benutzer;
@@ -22,7 +22,9 @@ header("Location: http://localhost:8080/workspace/templatehtml.php");
 
 }
 else {
-	header("http://localhost:8080/tryagain.php");
+
+header("Location: http://localhost:8080/workspace/tryagain.php");
+
 }
 
 

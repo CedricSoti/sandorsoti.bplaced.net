@@ -15,7 +15,7 @@
    </div><!-- header -->
     
    <div id="main">
-    <h2>Try Again</h2>
+    <h2>wrong Email or Password</h2>
    </div><!-- main -->
     
    <div id="sidebar">
@@ -23,7 +23,8 @@
    </div><!-- sidebar --> 
     
    <div id="footer">
-    <h3>footer</h3>
+    <h3>Try again</h3>
+    <a href=../m133-tag2-anmeldung/control/redirectlogin.php>login</a>
    </div><!-- footer -->
     
 </div><!-- wrapper -->

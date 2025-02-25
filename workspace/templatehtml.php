@@ -23,7 +23,8 @@
    </div><!-- sidebar --> 
     
    <div id="footer">
-    <h3>footer</h3>
+      <h3>Log out</h3>
+      <a href=../m133-tag2-anmeldung/control/abmeldung.php>abmelden</a>
    </div><!-- footer -->
     
 </div><!-- wrapper -->
