@@ -18,12 +18,12 @@ if (( strlen($benutzer) > 0 ) AND ( strlen($password) > 0 ) AND ($password == "1
     $_SESSION['password'] = $password;
       
 
-header("Location: http://localhost:8080/workspace/templatehtml.html");
+header("Location: http://localhost:8080/m133-tag2-anmeldung/templatehtml.html");
 
 }
 else {
 
-header("Location: http://localhost:8080/workspace/tryagain.html");
+header("Location: http://localhost:8080/m133-tag2-anmeldung/tryagain.html");
 
 }
 
