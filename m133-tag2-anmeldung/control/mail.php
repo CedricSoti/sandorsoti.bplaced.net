@@ -32,19 +32,19 @@ if ( isset($_REQUEST["btn_mailsend"])) {
     if ($mailAdr == null || $mailAdr == "") {
         $fehlers = $fehlers."<li class='fehlermeldung'>Ohne E-Mail-Adresse K&ouml;nnen wir Sie nicht so gut kontaktieren.</li>";
     }
-//  if ($betreff == null || $betreff == "") {
-//      $fehlers = $fehlers."<li class='fehlermeldung'>Ein Betreff w&auml;re auch noch gut.</li>";
-//  }
+    if ($betreff == null || $betreff == "") {
+      $fehlers = $fehlers."<li class='fehlermeldung'>Ein Betreff w&auml;re auch noch gut.</li>";
+    }
     if ($mailMsg == null || $mailMsg == "") {
         $fehlers = $fehlers."<li class='fehlermeldung'>Bitte noch um eine Mitteilung.</li>";
     }
     
     if ($fehlers == "") {
-        $nachrichtErhalten = "Die Nachricht wurde gesendet.";
+        $nachrichtErhalten = "Ihre Nachricht wurde gesendet.";
         $sender 		= $mailAdr;
         $mailtext 		= "<br>Name:<br>".$mailNam
         ."<br><br>Email:<br>".$mailAdr
-//      ."<br><br>Betreff:<br>".$betreff
+        ."<br><br>Betreff:<br>".$betreff
         ."<br><br>Mitteilung:<br>".$mailMsg
         ."<br><br>Mit freundlichen Gruessen:<br>".$empfaenger;
 
