@@ -1,6 +1,6 @@
 <?php
-$betreiberSite 	=  "haraldmueller.bplaced.net";
-$eigeneMailadresse = "harald.mueller@tbz.ch";
+$betreiberSite 	=  "sandorsoti.bplaced.net";
+$eigeneMailadresse = "cedric.soti@edu.tbz.ch";
 $empfaenger 	=  $eigeneMailadresse;
 
 // echo print_r($_REQUEST, true);
@@ -23,7 +23,7 @@ function checkText($uebergabeWort) {
 if ( isset($_REQUEST["btn_mailsend"])) {
     $mailNam	= checkText($_REQUEST["mailNam"]);
     $mailAdr 	= checkText($_REQUEST["mailAdr"]);
-//  $betreff	= checkText($_REQUEST["betreff"]);
+    $betreff	= checkText($_REQUEST["betreff"]);
     $mailMsg	= checkText($_REQUEST["mailMsg"]);
     $fehlers = "";
     if ($mailNam == null || $mailNam == "") {
