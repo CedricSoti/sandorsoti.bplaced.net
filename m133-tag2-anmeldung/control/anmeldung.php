@@ -19,12 +19,12 @@ if (( strlen($benutzer) > 0 ) AND ( strlen($password) > 0 ) AND ($password == "1
     $_SESSION['password'] = $password;
       
 
-header("Location: ../m133-tag2-anmeldung/templatehtml.html");
+header("Location: ../templatehtml.html");
 
 }
 else {
 
-header("Location: ../m133-tag2-anmeldung/tryagain.html");
+header("Location: ../tryagain.html");
 
 }
 
