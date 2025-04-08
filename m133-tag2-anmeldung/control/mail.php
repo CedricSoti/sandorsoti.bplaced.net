@@ -6,7 +6,7 @@ $empfaenger 	=  $eigeneMailadresse;
 // echo print_r($_REQUEST, true);
 // echo "</pre>";
 
-$mailNam 	= "";
+$mailNam 	    = "";
 $mailAdr 		= "";
 $betreff		= "";
 $mailMsg  		= "";
