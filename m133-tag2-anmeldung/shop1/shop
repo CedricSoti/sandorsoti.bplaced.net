@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>Online Shop</title>
   <meta charset="UTF-8">
+  <title>Summer House Shop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
 <div class="w3-container w3-padding-32">
-  <h2 class="w3-center">Willkommen im Shop</h2>
+  <h2 class="w3-center">Willkommen im Summer House Shop</h2>
+  <div class="w3-right w3-margin">
+    <a href="warenkorb.html" class="w3-button w3-teal">🛍 Warenkorb ansehen</a>
+  </div>
   <div class="w3-row-padding">
 
-    <!-- Beispiel-Produkt -->
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/w3images/house5.jpg" style="width:100%">
-        <div class="w3-container">
-          <h5>Design-Stuhl</h5>
-          <p>CHF 99.–</p>
-          <button class="w3-button w3-black" onclick="addToCart('Design-Stuhl', 99)">In den Warenkorb</button>
-        </div>
-      </div>
-    </div>
+    <!-- Beispielprodukte -->
+    <script>
+      const products = [
+        { name: "Design-Stuhl", price: 99, image: "w3images/house5.jpg" },
+        { name: "Rattan-Lounge", price: 299, image: "w3images/sofa.jpg" },
+        { name: "Stehlampe Bambus", price: 59, image: "w3images/lamp.jpg" },
+        { name: "Holztisch Natur", price: 199, image: "w3images/table.jpg" },
+        { name: "Sommerliche Wanddeko", price: 39, image: "w3images/deco1.jpg" },
+        { name: "Hängematte", price: 49, image: "w3images/hammock.jpg" },
+        { name: "Kissen Set (4 Stk.)", price: 35, image: "w3images/cushion.jpg" },
+        { name: "Gartenlaterne", price: 19, image: "w3images/lantern.jpg" },
+        { name: "Outdoor-Teppich", price: 89, image: "w3images/outdoorrug.jpg" },
+        { name: "Blumentopf-Set", price: 24, image: "w3images/planter.jpg" },
+        { name: "Sonnenschirm", price: 129, image: "w3images/parasoll.jpg" }
+      ];
 
-    <!-- Du kannst hier weitere Produkte nach dem selben Muster einfügen -->
+      products.forEach(product => {
+        document.write(`
+          <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card">
+              <img src="${product.image}" style="width:100%">
+              <div class="w3-container">
+                <h5>${product.name}</h5>
+                <p>CHF ${product.price}.–</p>
+                <button class="w3-button w3-black" onclick="addToCart('${product.name}', ${product.price})">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+        `);
+      });
+    </script>
 
   </div>
 </div>
