@@ -1,8 +1,11 @@
 
+<?php
+session_start(); // ganz am Anfang, vor jeglicher Ausgabe!
 
-<?php 
-session_start();
-session_unset();      // entfernt alle session variablen, inkl. warenkorb
-session_destroy();    // beendet session komplett
-header('Location: ../anmeldung.html');
+unset($_SESSION['benutzer']);
+unset($_SESSION['password']);
+session_destroy();
+
+header('Location: ../anmeldung.html'); // oder eine andere Seite
 exit;
+?>
