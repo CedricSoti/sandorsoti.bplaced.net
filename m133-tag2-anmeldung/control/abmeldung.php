@@ -6,7 +6,7 @@
 ?>
 Benutzer abgemeldet
 <br>
-<a href="../anmeldung.html">Zur&uuml;ck zur Anmeldung</a>
+<a href="../templatehtml.html">Zur&uuml;ck zur Homepage</a>
 
 
 

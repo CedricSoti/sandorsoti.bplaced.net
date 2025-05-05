@@ -1,3 +1,3 @@
 <?php
-header( 'Location: /m133-tag2-anmeldung/anmeldung.html' ) ;
+header( 'Location: /m133-tag2-anmeldung/templatehtml.html' ) ;
 ?>
