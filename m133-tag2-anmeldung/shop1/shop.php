@@ -20,17 +20,17 @@
   <div class="w3-row-padding">
     <?php
     $products = [
-      ["name" => "Design-Stuhl", "price" => 99, "image" => "w3images/house5.jpg"],
-      ["name" => "Rattan-Lounge", "price" => 299, "image" => "w3images/sofa.jpg"],
-      ["name" => "Stehlampe Bambus", "price" => 59, "image" => "w3images/lamp.jpg"],
-      ["name" => "Holztisch Natur", "price" => 199, "image" => "w3images/table.jpg"],
-      ["name" => "Sommerliche Wanddeko", "price" => 39, "image" => "w3images/deco1.jpg"],
-      ["name" => "Hängematte", "price" => 49, "image" => "w3images/hammock.jpg"],
-      ["name" => "Kissen Set (4 Stk.)", "price" => 35, "image" => "w3images/cushion.jpg"],
-      ["name" => "Gartenlaterne", "price" => 19, "image" => "w3images/lantern.jpg"],
-      ["name" => "Outdoor-Teppich", "price" => 89, "image" => "w3images/outdoorrug.jpg"],
-      ["name" => "Blumentopf-Set", "price" => 24, "image" => "w3images/planter.jpg"],
-      ["name" => "Sonnenschirm", "price" => 129, "image" => "w3images/parasoll.jpg"]
+      ["name" => "Design-Stuhl", "price" => 99, "image" => "../m133-tag2-anmeldung/view/images/stuhl.jpg"],
+      ["name" => "Rattan-Lounge", "price" => 299, "image" => "../m133-tag2-anmeldung/view/images/lounge.jpg"],
+      ["name" => "Stehlampe Bambus", "price" => 59, "image" => "../m133-tag2-anmeldung/view/images/bambuslampe.jpg"],
+      ["name" => "Holztisch Natur", "price" => 199, "image" => "../m133-tag2-anmeldung/view/images/holztisch.jpg"],
+      ["name" => "Sommerliche Wanddeko", "price" => 39, "image" => "../m133-tag2-anmeldung/view/images/wanddeko.jpg"],
+      ["name" => "Hängematte", "price" => 49, "image" => "../m133-tag2-anmeldung/view/images/haengematte.jpg"],
+      ["name" => "Kissen Set (4 Stk.)", "price" => 35, "image" => "../m133-tag2-anmeldung/view/images/kissen.jpg"],
+      ["name" => "Gartenlaterne", "price" => 19, "image" => "../m133-tag2-anmeldung/view/images/laterne.jpg"],
+      ["name" => "Outdoor-Teppich", "price" => 89, "image" => "../m133-tag2-anmeldung/view/images/teppich.jpg"],
+      ["name" => "Blumentopf-Set", "price" => 24, "image" => "../m133-tag2-anmeldung/view/images/toepfe.jpg"],
+      ["name" => "Sonnenschirm", "price" => 129, "image" => "../m133-tag2-anmeldung/view/images/sonnenschirm.jpg"]
     ];
 
     foreach ($products as $product) {
