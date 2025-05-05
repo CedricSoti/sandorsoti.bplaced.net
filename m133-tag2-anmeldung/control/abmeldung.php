@@ -1,11 +1,11 @@
-
 <?php
-session_start(); // ganz am Anfang, vor jeglicher Ausgabe!
+// Keine Leerzeile oder Leerzeichen vor diesem PHP-Block!
 
-unset($_SESSION['benutzer']);
-unset($_SESSION['password']);
+session_start();
+session_unset();
 session_destroy();
 
-header('Location: ../anmeldung.html'); // oder eine andere Seite
+// Weiterleitung nach dem Logout
+header("Location: ../anmeldung.html");
 exit;
 ?>
