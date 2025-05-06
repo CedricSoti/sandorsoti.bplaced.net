@@ -1,0 +1,14 @@
+{
+    "test": {
+        "password": "$2y$10$xtdQgW7Mp\/8Y\/XdP8uskLe.zRT45XUcBJJoUxNhaLStRIY41hB5kS"
+    },
+    "test123": {
+        "password": "$2y$10$gNbE0.9Tbw8FZjV49.dT.un.8c9LI.RbFY.A9Ol\/.pJ6kAaMSOLBG"
+    },
+    "test1234": {
+        "password": "$2y$10$JsEWBk8SvMHacVxUg9bbaOYZHRODLFr61s\/Y27nO\/fJXnl2rA0.um"
+    },
+    "123456": {
+        "password": "$2y$10$ZUcYHhLNTL7GrtdfBpvLo.7iopa5LGOAvWsMh3Xl.L8or.Nt1UElK"
+    }
+}

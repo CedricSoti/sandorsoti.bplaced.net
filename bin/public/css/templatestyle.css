@@ -1,0 +1,15 @@
+/*   
+Theme Name: Tutorial
+Theme URI: http://wordpress.lernenhoch2.de
+Description: Template zum WordPress Tutorial auf http://wordpress.lernenhoch2.de
+Author: Christian Strang
+Author URI: http://lernenhoch2.de
+*/
+
+body        {color: #333; background: #e5e5e5;}
+ 
+#wrapper    {width: 850px; margin: auto; text-align: left; background: #fff;}
+#header        {height: 160px; padding: 20px; }
+#main       {width: 520px; padding: 20px; float: left;}
+#sidebar    {width: 270px; padding: 10px; padding-top: 20px; float: left;}
+#footer        {clear: both; height: 100px; padding: 20px; }
