@@ -23,7 +23,7 @@ $user = $_SESSION['user'] ?? null;
       <span class="w3-button w3-light-blue">Hallo, <?php echo htmlspecialchars($user); ?></span>
       <a href="<?php echo htmlspecialchars($_SERVER['SCRIPT_NAME']); ?>?action=logout" class="w3-button w3-red">Logout</a>
     <?php else: ?>
-      <a href="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>?page=login.php" class="w3-button w3-blue">🔒 Login</a>
+      <a href="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>?page=login" class="w3-button w3-blue">🔒 Login</a>
     <?php endif; ?>
     <a href="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>?page=home" class="w3-button w3-grey">Zurück zum Home</a>
   </div>
